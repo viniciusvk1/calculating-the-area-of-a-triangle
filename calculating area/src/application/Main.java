@@ -10,12 +10,12 @@ public class Main {
 
         double xA, xB, xC, yA, yB, yC;
 
-        System.out.println("Enter the measures of traingle X: ");
+        System.out.println("Enter the measures of triangle X: ");
         xA = sc.nextDouble();
         xB = sc.nextDouble();
         xC = sc.nextDouble();
 
-        System.out.println("Enter the measures of traingle Y: ");
+        System.out.println("Enter the measures of triangle Y: ");
         yA = sc.nextDouble();
         yB = sc.nextDouble();
         yC = sc.nextDouble();
@@ -26,8 +26,8 @@ public class Main {
         p = (yA + yB + yC) / 2.0;
         double areaY = Math.sqrt(p*(p - yA) * (p - yB) * (p - yC));
 
-        System.out.printf("Triangule X area = %.4f%n ", areaX);
-        System.out.printf("Triangule Y area = %.4f%n ", areaY);
+        System.out.printf("Triangle X area = %.4f%n ", areaX);
+        System.out.printf("Triangle Y area = %.4f%n ", areaY);
 
         if (areaX > areaY){
             System.out.println("Larger area: X");
